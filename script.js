@@ -75,6 +75,7 @@ btnHold.addEventListener('click', function () {
       switchPlayer();
     } else {
       playing = false;
+      document.getElementById(`score--${activePlayer}`).textContent = 'WIN';
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.add('player--winner');
