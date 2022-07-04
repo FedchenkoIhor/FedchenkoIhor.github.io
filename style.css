@@ -83,7 +83,7 @@ main {
 }
 
 .player--active .current {
-  opacity: 1;
+  opacity: 2;
 }
 
 .current {
@@ -142,11 +142,11 @@ main {
   display: inline-block;
 }
 .btn--roll {
-  top: 85vh;
+  top: 80vh;
   left: 70%;
 }
 .btn--hold {
-  top: 85vh;
+  top: 80vh;
   left: 5%;
 }
 
