@@ -9,12 +9,13 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  height: 100%;
 }
 
 body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  height: 100vh;
+  height: 100%;
   color: #333;
   /* background-image: linear-gradient(to top left, #0b184e 0%, #a3841d 100%); */
   background-image: url('img/bg_top.jpg');
