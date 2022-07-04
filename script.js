@@ -71,7 +71,7 @@ btnHold.addEventListener('click', function () {
     document.getElementById(`score--${activePlayer}`).textContent =
       score[activePlayer];
     //Check if score >= 100 point player win else switch player
-    if (score[activePlayer] < 10) {
+    if (score[activePlayer] < 50) {
       switchPlayer();
     } else {
       playing = false;

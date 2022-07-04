@@ -111,21 +111,20 @@ main {
 /* ABSOLUTE POSITIONED ELEMENTS */
 .btn {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #444;
+  left: 3%;
+  /* color: #444; */
   background: none;
   border: none;
-  font-family: inherit;
-  font-size: 1.5rem;
-  text-transform: uppercase;
+  /* font-family: inherit; */
+  /* font-size: 3rem; */
+  /* text-transform: uppercase; */
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
 
   /* background-color: rgb(90, 14, 36); */
-  background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
+  /* background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px); */
 
   padding: 0.5rem 2rem;
   border-radius: 50rem;
@@ -133,22 +132,22 @@ main {
 }
 
 .btn::first-letter {
-  font-size: 2rem;
+  font-size: 3rem;
   display: inline-block;
-  margin-right: 0.3rem;
+  /* margin-right: 0.3rem; */
 }
 
 .btn--new {
-  top: 2rem;
+  top: 1rem;
   display: inline-block;
 }
 .btn--roll {
-  top: 94vh;
+  top: 85vh;
   left: 70%;
 }
 .btn--hold {
-  top: 94vh;
-  left: 30%;
+  top: 85vh;
+  left: 5%;
 }
 
 .btn:active {
@@ -163,10 +162,10 @@ main {
 .dice {
   position: absolute;
   left: 50%;
-  top: 44%;
+  top: 47%;
   /* transform: translateY(-50%); */
   transform: translateX(-50%);
-  height: 10rem;
+  height: 7rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
   /* rotation
   overflow: hidden;
