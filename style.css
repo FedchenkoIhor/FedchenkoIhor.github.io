@@ -162,7 +162,7 @@ main {
 .dice {
   position: absolute;
   left: 50%;
-  top: 45%;
+  top: 46%;
   /* transform: translateY(-50%); */
   transform: translateX(-50%);
   height: 7rem;
